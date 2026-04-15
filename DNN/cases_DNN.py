@@ -54,7 +54,7 @@ cols = [col_names.index(var) for var in train_vars]
 # 
 # ------------------------------------------------------------
 
-text_path = '../text_files_final'
+text_path = '../inputs'
 
 VLL_m500_cases = pd.read_csv(text_path + '/M500/M500_500Ev_cases.txt',sep=' ',index_col=None, usecols=cols,names=col_names)
 VLL_m1000_cases = pd.read_csv(text_path + '/M1000/M1000_500Ev_cases.txt',sep=' ',index_col=None, usecols=cols,names=col_names)
@@ -62,8 +62,8 @@ VLL_m1500_cases = pd.read_csv(text_path + '/M1500/M1500_500Ev_cases.txt',sep=' '
 VLL_m750_cases = pd.read_csv(text_path + '/M750/M750_500Ev_cases.txt',sep=' ',index_col=None, usecols=cols,names=col_names)
 VLL_m2500_cases = pd.read_csv(text_path + '/M2500/M2500_500Ev_cases.txt',sep=' ',index_col=None, usecols=cols,names=col_names)
 
-WZ_cases = pd.read_csv(text_path + '/SM/WZ_1k_test.txt',sep=' ',index_col=None, usecols=cols,names=col_names)
-TTZ_cases = pd.read_csv(text_path + '/SM/TTZ_1k_test.txt',sep=' ',index_col=None, usecols=cols,names=col_names)
+WZ_cases = pd.read_csv(text_path + '/SM/WZ_500Ev_cases.txt',sep=' ',index_col=None, usecols=cols,names=col_names)
+TTZ_cases = pd.read_csv(text_path + '/SM/TTZ_500Ev_cases.txt',sep=' ',index_col=None, usecols=cols,names=col_names)
 
 
 #These are the variables used during training

@@ -1,16 +1,16 @@
 Test Data Composition: case1: 10M1000
-Avg Neuron scores: [9.5045287e-03 8.6095548e-01 1.0233754e-01 1.0716067e-06]
+Avg Neuron scores: [4.534944e-03 9.351999e-01 3.280905e-02 7.336406e-06]
 ******************************
 
 Test Data Composition: case2: 10M2500
-Avg Neuron scores: [1.1334009e-09 8.6241556e-07 9.9999911e-01 6.7576496e-21]
+Avg Neuron scores: [7.3988413e-06 9.7874072e-05 9.9989426e-01 2.6186974e-22]
 ******************************
 
 Test Data Composition: case3: 10M500_10Bkg
-Avg Neuron scores: [0.9566118  0.03260948 0.0042839  0.00426887]
+Avg Neuron scores: [0.61954844 0.00803537 0.00257034 0.09308061]
 ******************************
 
 Test Data Composition: case4: 10M750_5Bkg
-Avg Neuron scores: [2.7644747e-01 6.4134240e-01 4.2965565e-02 5.5086997e-04]
+Avg Neuron scores: [5.8933568e-01 3.5674185e-01 3.3519782e-02 2.7092762e-04]
 ******************************
 

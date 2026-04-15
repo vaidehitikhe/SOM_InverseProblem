@@ -1,5 +1,12 @@
 ## DNN python scripts
 
+#### Requirements
+
+- Python: 3.10.13
+- TensorFlow: 2.16.2
+- Keras: 3.10.0
+
+
 This folder contains four components:
 - `DNNfunctions`: This contains all the functions (normalization, plotting, etc) that will be called while training and testing of the DNN.
 - `train_DNN`: This is the main script used for training the DNN.

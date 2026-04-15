@@ -6,7 +6,7 @@ Each of folders `M500`, `M1000`, `M1500` contains three text files as: 9500 even
 
 In the folder `SM`, for:
 
-- DNN: The text files `TTZ_train` and `WZ_train` contain 4750 events each used for training DNN. The files `TTZ_test` and `WZ_test` contain 1000 events for testing the DNN. The events for the cases are sampled from `TTZ_sample500` and `WZ_sample500`.
+- DNN: The text files `TTZ_DNN_train` and `WZ_DNN_train` contain 4750 events each used for training DNN. The files `TTZ_DNN_test` and `WZ_DNN_test` contain 1000 events for testing the DNN. The events for the cases are sampled from `TTZ_500Ev_cases` and `WZ_500Ev_cases`.
 
 - SOM: The text files `TTZ_1k_test` and `WZ_1k_test` contain 1000 events used for testing the SOM. (**Note that** SOM is not trained on SM processes). The events for the cases are sampled from `TTZ_500Ev_cases` and `WZ_500Ev_cases`.
 

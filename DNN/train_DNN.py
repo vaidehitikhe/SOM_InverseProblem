@@ -91,13 +91,13 @@ for df in all_sig_dfs:
 train_vars = train_vars_bkg
 
 
-WZ_bkg_train = pd.read_csv(text_path + '/WZ_train.txt',sep=' ',index_col=None, usecols=cols_bkg,names=col_names_bkg)
-WZ_bkg_test = pd.read_csv(text_path + '/WZ_test.txt',sep=' ',index_col=None, usecols=cols_bkg,names=col_names_bkg)
+WZ_bkg_train = pd.read_csv(text_path + '/SM/WZ_DNN_train.txt',sep=' ',index_col=None, usecols=cols_bkg,names=col_names_bkg)
+WZ_bkg_test = pd.read_csv(text_path + '/SM/WZ_DNN_test.txt',sep=' ',index_col=None, usecols=cols_bkg,names=col_names_bkg)
 WZ_bkg_train['label']=3
 WZ_bkg_test['label']=3
 
-TTZ_bkg_train = pd.read_csv(text_path + '/TTZ_train.txt',sep=' ',index_col=None, usecols=cols_bkg,names=col_names_bkg)
-TTZ_bkg_test = pd.read_csv(text_path + '/TTZ_test.txt',sep=' ',index_col=None, usecols=cols_bkg,names=col_names_bkg)
+TTZ_bkg_train = pd.read_csv(text_path + '/SM/TTZ_DNN_train.txt',sep=' ',index_col=None, usecols=cols_bkg,names=col_names_bkg)
+TTZ_bkg_test = pd.read_csv(text_path + '/SM/TTZ_DNN_test.txt',sep=' ',index_col=None, usecols=cols_bkg,names=col_names_bkg)
 
 TTZ_bkg_train["label"]=3
 TTZ_bkg_test["label"]=3

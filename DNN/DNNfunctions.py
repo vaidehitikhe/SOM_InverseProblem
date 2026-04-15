@@ -9,13 +9,12 @@ from sklearn.metrics import roc_curve,auc
 # Setup the color schemes and labels
 # 
 # ------------------------------------------------------------
-print("hehe")
 mybins = np.arange(0,1.05,0.1)
 
 neuron_colors = ['xkcd:pinkish purple', 'xkcd:tangerine', 'xkcd:murky green', 'black']
 process_colors = ['teal', 'blue', 'red', 'black']
 validation_colors=['xkcd:royal blue','xkcd:red','xkcd:green','xkcd:grey']
-df_names = ['M500', 'M1000', 'M1500','SM']
+df_names = ['$m_L=500$', '$m_L=1000$', '$m_L=1500$','SM']
 
 alpha_neuron_scores = [0.5, 0.5, 0.5, 0.3]
 
